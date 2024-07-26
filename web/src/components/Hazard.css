@@ -1,0 +1,300 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500;600;700&display=swap");
+body {
+  padding: 0;
+  margin: 0;
+  background-color: #fff;
+  font-family: "Jost", sans-serif;
+  letter-spacing: 0.5px;
+}
+label {
+  display: block;
+  text-transform: uppercase;
+  font-family: "Jost", sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  color: #aad1ff;
+  line-height: 1;
+  text-align: center;
+  margin-bottom: 5px;
+}
+button {
+  position: relative;
+  width: 100px;
+  height: 60px;
+  border: 0;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #e0e0e0;
+  box-shadow: 1px 1px 1px #919191, 1px 2px 1px #919191, 1px 3px 1px #919191,
+    1px 4px 1px #919191, 1px 5px 1px #919191, 1px 6px 1px #919191,
+    1px 7px 1px #919191;
+}
+button:hover {
+  filter: brightness(1.5);
+}
+
+button span {
+  font-family: "Jost", sans-serif;
+  font-size: 22px;
+  font-weight: 400;
+  color: #000000;
+  line-height: 1;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 9999;
+}
+button span i {
+  font-size: 60px;
+}
+button .carretIcon{
+  font-size: 60px;
+}
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+.hazard-systems-wrap {
+  width: 100%;
+  display: flex;
+}
+
+.hazard-systems-block {
+  width: 700px;
+  max-width: 100%;
+  position: relative;
+  display: inline-block;
+  margin: 0 auto;
+  padding: 40px;
+  border-radius: 10px;
+  background: radial-gradient(
+    ellipse farthest-corner at 20% 65%,
+    #525864,
+    #130f0e
+  );
+  box-shadow: inset -8px 0 8px rgb(0 0 0 / 15%),
+    inset 0 -8px 8px rgb(0 0 0 / 25%), 0 0 0 2px rgb(0 0 0 / 75%),
+    10px 20px 25px rgb(0 0 0 / 40%);
+}
+
+.hazard-systems-row {
+  position: relative;
+  display: flex;
+}
+.hazard-systems-row .hazard-systems-col1 {
+  width: 65%;
+}
+.hazard-systems-row .hazard-systems-col2 {
+  width: 35%;
+  display: flex;
+  flex-flow: column;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.hazard-systems-col1 > ul > li {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin-bottom: 13px;
+}
+.hazard-systems-col1 > ul > li:first-child > div:first-child {
+  width: 60%;
+  text-align: center;
+}
+
+.hazard-systems-col1 > ul > li:first-child div:first-child button {
+  width: 180px;
+}
+.hazard-systems-col1 > ul > li:last-child {
+  margin-bottom: 0;
+}
+
+.hazard-systems-col1 > ul > li:last-child button {
+  height: 40px;
+}
+.hazard-systems-row .hazard-systems-col2 button {
+  width: 180px;
+}
+.hazard-systems-row .hazard-systems-col2 button.alert-btn {
+  height: 100px;
+  background: #ee3e41;
+  box-shadow: 1px 1px 1px #b12c30, 
+  1px 2px 1px #b12c30, 
+  1px 3px 1px #b12c30,
+  1px 4px 1px #b12c30, 
+  1px 5px 1px #b12c30, 
+  1px 6px 1px #b12c30,
+  1px 7px 1px #b12c30;
+}
+.hazard-systems-row button.primary-btn span,
+.hazard-systems-row .hazard-systems-col2 button.alert-btn span,
+.hazard-systems-row .hazard-systems-col2 button.clear-btn span {
+  font-size: 32px;
+}
+.hazard-systems-row .hazard-systems-col2 button.clear-btn {
+  background: #00a963;
+  box-shadow: 1px 1px 1px #007042, 
+  1px 2px 1px #007042, 
+  1px 3px 1px #007042,
+  1px 4px 1px #007042, 
+  1px 5px 1px #007042, 
+  1px 6px 1px #007042,
+  1px 7px 1px #007042;
+}
+.hazard-systems-col1 > ul > li button.alt-btn {
+  background: #0364a9;
+  box-shadow: 1px 1px 1px #003f6c, 
+  1px 2px 1px #003f6c, 
+  1px 3px 1px #003f6c,
+  1px 4px 1px #003f6c, 
+  1px 5px 1px #003f6c, 
+  1px 6px 1px #003f6c,
+  1px 7px 1px #003f6c;
+}
+
+.hazard-systems-col1 > ul > li button.alt-btn span {
+  color: #aad1ff;
+}
+.hscol2-block {
+  text-align: center;
+}
+.light-line {
+  margin: 10px auto;
+}
+
+.light-line > div {
+  width: 200px;
+  height: 15px;
+  background: #ec637a;
+  border-radius: 12px;
+}
+.hscol2-block h6 {
+  margin: 0;
+  color: #ee3e41;
+  font-weight: 400;
+  line-height: 1;
+  font-size: 24px;
+}
+.modal-content{
+  background: none;
+  border: none;
+}
+.led-green-blink {
+  background-color: #abff00;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 0 -1px 9px,
+    rgba(9, 255, 0, 0.5) 0 2px 12px;
+  -webkit-animation: blinkGreen 0.5s infinite;
+  -moz-animation: blinkGreen 0.5s infinite;
+  -ms-animation: blinkGreen 0.5s infinite;
+  -o-animation: blinkGreen 0.5s infinite;
+  animation: blinkGreen 0.5s infinite;
+}
+
+@-webkit-keyframes blinkGreen {
+  from {
+    background-color: #abff00;
+  }
+  50% {
+    background-color: #abff00;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #abff00 0 -1px 9px,
+      rgba(9, 255, 0, 0.5) 0 2px 0;
+  }
+  to {
+    background-color: #abff00;
+  }
+}
+@-moz-keyframes blinkGreen {
+  from {
+    background-color: #abff00;
+  }
+  50% {
+    background-color: #abff00;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #abff00 0 -1px 9px,
+      rgba(9, 255, 0, 0.5) 0 2px 0;
+  }
+  to {
+    background-color: #abff00;
+  }
+}
+@-ms-keyframes blinkGreen {
+  from {
+    background-color: #abff00;
+  }
+  50% {
+    background-color: #abff00;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #abff00 0 -1px 9px,
+      rgba(9, 255, 0, 0.5) 0 2px 0;
+  }
+  to {
+    background-color: #abff00;
+  }
+}
+@-o-keyframes blinkGreen {
+  from {
+    background-color: #abff00;
+  }
+  50% {
+    background-color: #abff00;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #abff00 0 -1px 9px,
+      rgba(9, 255, 0, 0.5) 0 2px 0;
+  }
+  to {
+    background-color: #abff00;
+  }
+}
+@keyframes blinkGreen {
+  from {
+    background-color: #abff00;
+  }
+  50% {
+    background-color: #abff00;
+    box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #abff00 0 -1px 9px,
+      rgba(9, 255, 0, 0.5) 0 2px 0;
+  }
+  to {
+    background-color: #abff00;
+  }
+}
+
+.led-green {
+  background-color: #abff00;
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -1px 7px 1px, inset #304701 0 -1px 9px,
+    #89ff00 0 2px 12px;
+}
+
+.led-red {
+  margin: 0 auto;
+  width: 24px;
+  height: 24px;
+  background-color: #F00;
+  border-radius: 50%;
+  box-shadow: rgb(0 0 0 / 20%) 0 -1px 7px 1px, inset #441313 0 -1px 9px, rgb(255 0 0 / 50%) 0 2px 12px;
+}
+
+button .led-green-blink, button .led-green, 
+button.alert-btn .led-red-wrap {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+button.down-btn .led-green-blink, button.down-btn .led-green{
+  margin-left: -10px;
+}
+
+button.up-btn .led-green-blink, button.up-btn .led-green{
+  margin-left: 10px;
+}
+
+button.alert-btn .led-red-wrap {
+  display: flex;
+  align-items: center;
+  width: 80px;
+}
